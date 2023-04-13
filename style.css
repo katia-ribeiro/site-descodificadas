@@ -1,0 +1,33 @@
+*{
+    margin: 1px;
+    padding: 0;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.list{
+ text-align: end;
+ font-weight: bold;
+ font-size: large;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: top 0;
+}
+header{
+    background-image: url(image/paulista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    position: relative;
+    left: 40%;  
+}
+figcaption{
+    color: white;
+    font-weight: bold;
+}
+.quem-somos{
+    background-color: rgb(248, 248, 72);
+}
