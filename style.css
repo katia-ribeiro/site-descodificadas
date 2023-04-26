@@ -8,6 +8,9 @@
  text-align: end;
  font-weight: bold;
  font-size: large;
+ position: absolute;
+ top: 25px;
+ right: 20px;
 }
 a{
     text-decoration: none;
@@ -34,7 +37,33 @@ figcaption{
     font-weight: bold;
        
 }
+.inicial{
+    position: absolute;
+    top: 25px;
+    left: 90px;
+}
 .quem-somos{
     background-color: rgba(255,213,79,1);
     display: block;
+    text-align: justify;
+    height: 50%;
+   
+    
+}
+.titulos{
+    text-align: center;
+}
+.primeiro-dia{
+    width: 500px;
+    height: 300px;
+    padding-right: 10%;
+
+    
+}
+.segundo-dia{
+    width: 700px;
+    height: 300px; 
+    position: absolute;
+    top: 86%;
+    left: 50%;
 }
