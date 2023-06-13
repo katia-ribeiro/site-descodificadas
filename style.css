@@ -1,6 +1,5 @@
 *{
     margin: 1px;
-    padding: 1px;
     font-family: sans-serif;
 }
 
@@ -21,25 +20,37 @@ a{
 figcaption{
     color: white;
     font-weight: bold;
-       
 }
-.inicial{
-    border: solid;
-    border-color: black;
-
+header{
+    opacity: 0.8;
+}
+.logo{
+    position: absolute;
+    top: 2%
+}
+.logo figcaption{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.logo2{
+    position: absolute;
+    top:36%;
+    right: 22%;
+}
+.logo2 img{
+    width: 50%;
+    height: 50%;
 }
 .quem-somos{
     background-color: rgba(255,213,79,1);
-    display: block;
     text-align: justify;
-    height: 30%;   
+    height: 50%;   
 }
 .sub1{
     display: grid;
     grid-template-rows: 2fr;
     align-items: center;
-    margin:10%;
-    margin-top: 2%;
 
 }
 
@@ -57,7 +68,7 @@ figcaption{
     width: 700px;
     height: 300px; 
     position: absolute;
-    top: 106%;
+    top: 115%;
     left: 50%;
 }
 button{
