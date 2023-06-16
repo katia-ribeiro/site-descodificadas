@@ -1,0 +1,175 @@
+*{
+    margin: 1px;
+    font-family: sans-serif;
+}
+
+.list{
+ text-align: end;
+ font-weight: bold;
+ font-size: large;
+ position: absolute;
+ top: 25px;
+ right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: top 0;
+}
+figcaption{
+    color: white;
+    font-weight: bold;
+}
+header{
+    opacity: 0.8;
+}
+.logo{
+    position: absolute;
+    top: 2%
+}
+.logo figcaption{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.logo2{
+    position: absolute;
+    top:36%;
+    right: 22%;
+}
+.logo2 img{
+    width: 50%;
+    height: 50%;
+}
+.quem-somos{
+    background-color: rgba(255,213,79,1);
+    text-align: justify;
+    height: 50%;   
+}
+.sub1{
+    display: grid;
+    grid-template-rows: 2fr;
+    align-items: center;
+
+}
+
+.titulos{
+    text-align: center;
+    margin: 1%;
+}
+.primeiro-dia{
+    width: 500px;
+    height: 300px;
+    padding-right: 10%;
+    
+}
+.segundo-dia{
+    width: 700px;
+    height: 300px; 
+    position: absolute;
+    top: 115%;
+    left: 50%;
+}
+button{
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    height: 60px;
+    margin-bottom: 5rem;
+}
+
+.item1{
+    margin: 5%;
+    text-align: center;
+    font-size: 25px;
+
+}
+.item1 img{
+    height: 50%;
+    width: 50%;
+
+}
+.item1 figcaption{
+    text-align: center;
+    color: black;
+    font-size: 40%;
+    font-weight: normal;
+}
+.sub2{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+}
+.item2{
+        width: 300px;
+        height: 400px;
+        padding-left: 27%; 
+        
+    }
+
+.item2 img{
+    width: 250px;
+    height: 200px;
+
+}
+.item3{
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+}
+.item3 img{
+    width: 250px;
+    height: 200px;
+}
+.item4{
+    text-align: center;
+}
+.item4 h1{
+    margin: 3%;
+}
+.local{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.item5{
+text-align: center;    
+}
+.item5 p{
+    text-align: justify;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    color: rgb(118, 117, 117);
+}
+.endereco{
+    font-weight: bold;
+    color: rgb(118, 117, 117);
+    margin-left: 21%;  
+    padding: 5%;
+}
+.item6{
+    text-align: center;
+    padding: 5%;
+}
+.teste1{
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: aqua;
+    border: solid;
+}
+.linha{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border: solid;
+}
+.teste2{
+    border: solid;
+    width: 20%;
+}
+.teste3{
+    border: solid;
+    width:20%;
+}
