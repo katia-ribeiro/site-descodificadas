@@ -37,7 +37,8 @@ header{
 .logo2{
     position: absolute;
     top:36%;
-    right: 22%;
+    right: 30%;
+    text-align: center;
 }
 .logo2 img{
     width: 50%;
@@ -57,7 +58,7 @@ header{
 
 .titulos{
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 }
 .primeiro-dia{
     width: 500px;
@@ -65,11 +66,8 @@ header{
     
 }
 .segundo-dia{
-    width: 700px;
+    width: 500px;
     height: 300px; 
-    position: absolute;
-    top: 145%;
-    left: 50%;
 }
 button{
     font-size: 16px;
@@ -78,6 +76,7 @@ button{
     border-radius: 3px;
     height: 60px;
     margin-bottom: 5rem;
+    
 }
 
 .item1{
@@ -99,29 +98,35 @@ button{
 }
 .sub2{
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: sticky;
+    text-align: center;
 }
 .item2{
         width: 300px;
         height: 400px;
-        padding-left: 27%; 
-        
+        position: sticky;
+        text-align: center;
+
     }
 
 .item2 img{
     width: 250px;
     height: 200px;
-
+    position: sticky;
+    text-align: center;
 }
 .item3{
-    position: absolute;
-    left: 50%;
     width: 300px;
-    height: 300px;
+    height: 400px;
+    position: sticky;
+    text-align: center;
 }
 .item3 img{
     width: 250px;
     height: 200px;
+    position: sticky;
+    text-align: center;
 }
 .item4{
     text-align: center;
@@ -168,4 +173,13 @@ text-align: center;
     text-align: center;
     height:50%;  
     padding:2%; 
+}
+@media only screen and(max-width:320px) and(max-width:480px) {
+    body{
+        font-size-adjust: 10px;
+    }
+    img{
+        max-height: 5%;
+        max-width: 5%;
+    }
 }
